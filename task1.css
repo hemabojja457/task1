@@ -1,0 +1,42 @@
+body{
+	background-color: #91DDAA ;
+}
+.main{
+	/width: 100%;/
+	background-color:#FCFA89;
+	margin: :10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.left{
+	width: 25%;
+	background-color: #E667DF;
+	margin: 4%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 4px 4px 5px 5px;
+}
+
+.left>article>img{
+	width: 50%;
+}
+.right{
+	width: 74%;
+	background-color: rgb(197, 246, 246);
+}
+p{
+	font-size: 20px;
+}
+
+@media (min-device-width:320px) and (max-device-width:480px){
+	.left,
+	.right{
+		width: 100%;
+	}
+
+	.left>div{
+		width: 49%;
+	}
+}
